@@ -13,8 +13,14 @@ key = "space"
 
 [[keybind]]
 command = "Execute"
-value = "alacritty"
+value = "st"
 modifier = ["modkey"]
+key = "Return"
+
+[[keybind]]
+command = "Execute"
+value = "alacritty"
+modifier = ["modkey", "Shift"]
 key = "Return"
 
 [[keybind]]
@@ -28,6 +34,12 @@ command = "Execute"
 value = "falkon"
 modifier = ["modkey", "Shift"]
 key = "b"
+
+[[keybind]]
+command = "Execute"
+value = "alacritty -e 'ranger'"
+modifier = ["modkey", "Shift"]
+key = "e"
 
 [[keybind]]
 command = "Execute"
@@ -60,8 +72,8 @@ key = "F5"
 [[keybind]]
 command = "Execute"
 value = "pkill leftwm"
-modifier = ["modkey", "Shift"]
-key = "x"
+modifier = ["Mod1", "Control"]
+key = "l"
 
 [[keybind]]
 command = "MoveToLastWorkspace"
